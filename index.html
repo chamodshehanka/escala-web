@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Escalá - DB Scaling on Kubernetes</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/img/favicon.png"
-    />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
-    <!--[if lte IE 9]>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Escalá - DB Scaling on Kubernetes</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
@@ -26,524 +24,774 @@
       </p>
     <![endif]-->
 
-    <!-- ======== preloader start ======== -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
+  <!-- ======== preloader start ======== -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container">
+          <div class="spinner-rotator">
+            <div class="spinner-left">
+              <div class="spinner-circle"></div>
+            </div>
+            <div class="spinner-right">
+              <div class="spinner-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+  <!-- ======== header start ======== -->
+  <header class="header">
+    <div class="navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo/escala-logo.png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="page-scroll active" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="page-scroll" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="page-scroll" href="#about">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="page-scroll" href="#why">Why</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:void(0)">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:void(0)">Clients</a>
+                  </li>
+                </ul>
               </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
+              <!-- navbar collapse -->
+            </nav>
+            <!-- navbar -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!-- navbar area -->
+  </header>
+  <!-- ======== header end ======== -->
+
+  <!-- ======== hero-section start ======== -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center position-relative">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <h1 class="wow fadeInUp" data-wow-delay=".4s">
+              Seamless Postgress DB Scaling on Kubernetes
+            </h1>
+            <p class="wow fadeInUp" data-wow-delay=".6s">
+              Commercially supported PostgreSQL on the Platform and
+              Infrastructure of Your Choice.
+            </p>
+            <a href="javascript:void(0)" class="main-btn border-btn btn-hover wow fadeInUp" data-wow-delay=".6s">See
+              Plans</a>
+            <a href="#features" class="scroll-bottom">
+              <i class="lni lni-arrow-down"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
+            <img src="assets/img/hero/hero-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== hero-section end ======== -->
+
+  <!-- ======== feature-section start ======== -->
+  <section id="features" class="feature-section pt-120">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div>
+          <h2 class="mb-25 wow align-items-center fadeInUp" data-wow-delay=".2s">
+            What it Escala
+          </h2>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-8 col-sm-10">
+          <div class="single-feature">
+            <div class="icon">
+              <i class="lni lni-bootstrap"></i>
+            </div>
+            <div class="content">
+              <h3>Load Prediction</h3>
+              <p>
+                Self learning future requests pattern prediction algorithm
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-8 col-sm-10">
+          <div class="single-feature">
+            <div class="icon">
+              <i class="lni lni-layout"></i>
+            </div>
+            <div class="content">
+              <h3>Automatic Scaling</h3>
+              <p>
+                Automating the scaling of the PostgreSQL DB based on the prediction model output
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-8 col-sm-10">
+          <div class="single-feature">
+            <div class="icon">
+              <i class="lni lni-coffee-cup"></i>
+            </div>
+            <div class="content">
+              <h3>Realtime data sync</h3>
+              <p>
+                Realtime data sync between Postgres nodes to ensure the data consistency
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="single-feature">
+          <div class="icon">
+            <i class="lni lni-coffee-cup"></i>
+          </div>
+          <div class="content">
+            <h3>Data Validation & Crash Recovery</h3>
+            <p>
+              Data validation and crash recovery for the PostgreSQL DB instances
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ======== feature-section end ======== -->
+
+  <!-- ======== about-section start ======== -->
+  <section id="about" class="about-section pt-150">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6">
+          <div class="about-img">
+            <img src="assets/img/about/about-1.png" alt="" class="w-100" />
+            <img src="assets/img/about/about-left-shape.svg" alt="" class="shape shape-1" />
+            <img src="assets/img/about/left-dots.svg" alt="" class="shape shape-2" />
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Perfect Solution Thriving Online Business
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                dinonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <a href="javascript:void(0)" class="main-btn btn-hover border-btn wow fadeInUp"
+              data-wow-delay=".6s">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== about-section end ======== -->
+
+  <!-- ======== about2-section start ======== -->
+  <section id="about" class="about-section pt-150">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Easy to Use with Tons of Awesome Features
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua.
+              </p>
+            </div>
+            <ul>
+              <li>Quick Access</li>
+              <li>Easily to Manage</li>
+              <li>24/7 Support</li>
+            </ul>
+            <a href="javascript:void(0)" class="main-btn btn-hover border-btn wow fadeInUp" data-wow-delay=".6s">Learn
+              More</a>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 order-first order-lg-last">
+          <div class="about-img-2">
+            <img src="assets/img/about/about-2.png" alt="" class="w-100" />
+            <img src="assets/img/about/about-right-shape.svg" alt="" class="shape shape-1" />
+            <img src="assets/img/about/right-dots.svg" alt="" class="shape shape-2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== about2-section end ======== -->
+
+  <!-- ======== feature-section start ======== -->
+  <section id="why" class="feature-extended-section pt-100">
+    <div class="feature-extended-wrapper">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
+            <div class="section-title text-center mb-60">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Why Choose SaaSpal
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-feature-extended">
+              <div class="icon">
+                <i class="lni lni-display"></i>
+              </div>
+              <div class="content">
+                <h3>SaaS Focused</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-feature-extended">
+              <div class="icon">
+                <i class="lni lni-leaf"></i>
+              </div>
+              <div class="content">
+                <h3>Awesome Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-feature-extended">
+              <div class="icon">
+                <i class="lni lni-grid-alt"></i>
+              </div>
+              <div class="content">
+                <h3>Ready to Use</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-feature-extended">
+              <div class="icon">
+                <i class="lni lni-javascript"></i>
+              </div>
+              <div class="content">
+                <h3>Vanilla JS</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-feature-extended">
+              <div class="icon">
+                <i class="lni lni-layers"></i>
+              </div>
+              <div class="content">
+                <h3>Essential Sections</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-feature-extended">
+              <div class="icon">
+                <i class="lni lni-rocket"></i>
+              </div>
+              <div class="content">
+                <h3>Highly Optimized</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- preloader end -->
+  </section>
+  <!-- ======== feature-section end ======== -->
 
-    <!-- ======== header start ======== -->
-    <header class="header">
-      <div class="navbar-area">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
-                  <img src="assets/img/logo/escala-logo.png" alt="Logo" />
-                </a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                </button>
-
-                <div
-                  class="collapse navbar-collapse sub-menu-bar"
-                  id="navbarSupportedContent"
-                >
-                  <ul id="nav" class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="page-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#about">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#why">Why</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="javascript:void(0)">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="javascript:void(0)">Clients</a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- navbar collapse -->
-              </nav>
-              <!-- navbar -->
-            </div>
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->
-      </div>
-      <!-- navbar area -->
-    </header>
-    <!-- ======== header end ======== -->
-
-    <!-- ======== hero-section start ======== -->
-    <section id="home" class="hero-section">
-      <div class="container">
-        <div class="row align-items-center position-relative">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                Seamless Postgress DB Scaling on Kubernetes
-              </h1>
-              <p class="wow fadeInUp" data-wow-delay=".6s">
-                Commercially supported PostgreSQL on the Platform and
-                Infrastructure of Your Choice.
+  <!-- ======== subscribe-section start ======== -->
+  <section id="contact" class="subscribe-section pt-120">
+    <div class="container">
+      <div class="subscribe-wrapper img-bg">
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-7">
+            <div class="section-title mb-15">
+              <h2 class="text-white mb-25">Subscribe Our Newsletter</h2>
+              <p class="text-white pr-5">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor
               </p>
-              <a
-                href="javascript:void(0)"
-                class="main-btn border-btn btn-hover wow fadeInUp"
-                data-wow-delay=".6s"
-                >See Plans</a
-              >
-              <a href="#features" class="scroll-bottom">
-                <i class="lni lni-arrow-down"></i
-              ></a>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-              <img src="assets/img/hero/hero-img.png" alt="" />
-            </div>
+          <div class="col-xl-6 col-lg-5">
+            <form action="#" class="subscribe-form">
+              <input type="email" name="subs-email" id="subs-email" placeholder="Your Email" />
+              <button type="submit" class="main-btn btn-hover">
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ======== hero-section end ======== -->
+    </div>
+  </section>
+  <!-- ======== subscribe-section end ======== -->
 
-    <!-- ======== feature-section start ======== -->
-    <section id="features" class="feature-section pt-120">
+  <!-- ======== Document-section start ======== -->
+  <section id="why" class="feature-extended-section pt-100">
+    <div class="feature-extended-wrapper">
       <div class="container">
         <div class="row justify-content-center">
-          <div>
-            <h2 class="mb-25 wow align-items-center fadeInUp" data-wow-delay=".2s">
-              What it Escala
-            </h2>
-            <div class="content">
-              <p>
+          <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
+            <div class="section-title text-center mb-60">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Documents
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="seven">
+            <h1>Project Charter Document</h1>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mCSd14pmUatiisV2N5M82mVzjTiaLOtCzA0x2zlCTVP4R4TDxxhVTAuSl5Zfy71ccJfzg7pc9_RWXSqVyR8l8da_KfkRXxCmV74_Gox-0Wsd9msNuH-eUjAkiBfOD06jxGzsCVkH6s5Q80CQouhJNNpqCGuQ1Iphkqe6a42Q7UHeTB3G8Lme3_vM7waASdhDAN3Wx0eLWcHwCk3t9EF3inxvi0wEnbwXiyCRhBUvYGv0';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Escala Charter Document</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 80px;">
+          <div class="seven">
+            <h1>Project Proposal</h1>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mx3ifZsKA70AYS4_Y5DGCQe3uJ3S9koJjNTEnQB1cXqUm2oTHeMLaPyKpzNlJrm5CBeedOhhM44bLIDlQOYlCMqTB505curXV1SlqJDk9hAA_UC_P1xa1iHaN64Bu6hQkH65vioOlMdRKbwjrC-ltBqNAB4vt4hzJMpW_yrlQ1JbQ-NbvCEEVd7-27CcpoNMXMWCzOf-TM4SaFvoHyQGMEpAOXs4uS0LxsMPBukK7oBI';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Proposal Document-Team</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mak7XhtR_KPxfuZgFMJK7p04eidI-rR-9mTpM3ApqbOSAW83XOdLL2vgrs3llagBiJ-tIWTMwq_P9G6ian7jTC-abB9xkcXR0VFAeLE4QPqLUQqpb5YjxaVgQXQ9QucU6KzSBX9BUtK71hPYwcoZtXUjzW5qRty5srgtzYjhN1LUm6do_hZrI6vZz5Erwrf1DL0d7_tOdONB6icWG_csn-NtP1Dz2LD0n9V3zf_EpJRU';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Proposal Presentation</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mvVTDcik_BlsiUymbnWFXe3p2iZR329ShpJZ-hjRrhZ_3mASW09Kt4ZAEnaqI389QJVXv4PqK0dm-2pwLwEEXCVdhZ5Eef0-Whsz8EY4NpIW-8HE1UxF-TqiEo5vwn7Czpk5pL8tHDSN9dEi4ES5Mj4LS6L2hACe0kfKSPsi1wuSza9Ewq1F2sTR-ENmlndGifxN8LKsWGJMSfHO5BHinCH42NWqqzjRzmHIEGX1-ByM';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18004182 -Proposal Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mozbaIq-99BcMxn2B-Cxj-TvQArV5TT7Yj6dXZqmoneXSiL_UCJ3PyhnbzsY8g2ql7BGmu5CPtdyuzA4TO7X9NSFzATeHVJagctUwKFfC-1Kap-NgF9qjHgXD9-KpkPx73Ihb559KiDRZf9Dy-XJEhknvCc90aBRHmedkJxLr90JH8Y6oHYZ5I1XdW7oXKehul7Zwpo5OdGU77dNPBQkgMeJnodGTJv20MW9unKZDWr4';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18113228 -Proposal Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mukWUvIoC4RpFY4BPgXaFcNZ8vWbQA-xASrZ6LVsK1IIO1THwbjcHty9y8VnMju_wrMgsVth7fKZgjnplo7QvlmaQZh1I9XosxsPscBsumyH5bgjYu4FuASWn0n09IGqtRHQmwBiC9vt8_dMssAHsVipdJ2tdVYOvzjYbegTt8KRGuEkeBdptkpRE11slY7Ix4vxrxkmNGiLTMBUDTLQL6XX_0kS3e-EjK6vTZtoBL1Q';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18133400 -Proposal Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4med9KhpvZDH8IADjUAEELCp0hM4GsWTnv5oxndP96eyIO8JRsTHN7H3GG3ZVau6odaryz30HQIv5OhBPQp6BGYcvOWQfhnHVfXZDvgnmpxYlXYzWaymJmAhSjp5NfbkfEGi8FjZumz_oaczm2TRuUvPNnwEalwIwb3EAbcwYSPijLgZjnbKus0-t64NWyWMSJpAgVSz-5h7quaCQPb_02cep4dFw3ZcP1YB92UW76EOk';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18165258 -Proposal Document</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 80px;">
+          <div class="seven">
+            <h1>Status Document 1</h1>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4msuFedIXkUy6F9TJnEF_Ln5C5oJntvzgnZFeZb9B3OjcKnymFLM1_NMxAlc3GqKFpCsBQ_IaMRB4Zxc0nV2GfrV0CHt3bNzdvB96UqXH9zYQco_DUzrm-3mU6w1WIDl87YVeZaQ26WRlq3iHgfAJ5mKtsetvaVvZQiC0azWauc5gVrwZKJP62fU1-gNREYlWuYW9G12_c-8zu_VDrCuGcIl1ZP1Q6djm_aDPS532q_zU';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Status Document -Team</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4m_goa8_5BoG2mtRTziQ-0JVhroieqEUxQ91cEo-FgU9nS0v8qSRWTAErMSQniZh6l_ky8BMmEmGaxqbBaXaPFdWb2eMttZb8tvwjL-xV6f5bZ_sRbnyEos4gBVH0Z7L_98NtlK3yx6jjOIfG9aJrjjQcyJ91ZuNjid4Kxc4p23OTJUoHBtX0iiU-_geky6Y_cWJ1kK60DBbQgbTZW7mejzQwZXjM5oSnlcdzI7YxyQaU';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18004182 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mh0sPudt_3XHsHQHg0mOHvAZkD5y683_vPQDSjs4kn4ZwDRNj-5Yi31YBgwb5C3I3YzpDYtjKM18gvuhQ4qL4E3JMTgs8B3FXfWQJqrptXyHxjzsIIGviJ4GF4nSsrXkOgB9P3C3Glhe2Yf7IbBrrYeEZ5kHthJcvbvvOfdLxIMLLDbCVdPGH-TxfcWM00wMQh55-tt8o-IX-OJuYKloOWQanG_cmQl2Gri_dPzlYLWE';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18113228 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mjrhL7MeFEmBvJbZRVogFpb0gdY1UcUnJIIVWXb6CgCKzM517XpPBnQOQ3je2PgClVP0KUvDjX69gT7714F4zMgsjuWsUPSTD-e2uJK3Oy6tr2pHHakLaSBofzHRw6RvGwYkgwarmuZXJ8kvCdRs--exHHWdXu-rW_G3ntCnjP8xlSBGTZYxH4xEK9oqGWt6K0Ovp0mhpb6uK7H_IF8S-a0KblX_zakSh7zA4oGTH_R0';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18133400 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4myIoDXRIxc4kZcI4zyZnu8o4Hc454vht6WLtsKvkrL7i7WpSP9HDCMvvhc0Ujz1b9fA_1MH5GBY-hY_dxK4oaBVjYzO-NAmwx7NK0tYUr5XVEGySGy7jzx-6UxAc6hXrz5Xid6zNaYyCkeBhHOrHIrU65puMj5WPfSaobI8Vmu2aWJgnBQxk-2jurVQRPjXaTeD7X8_AbsPJQMz9CUfLgHscnS8BxcMifwccayI4u7qw';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18165258 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="seven">
+            <h1>Progress Presentation</h1>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mCSd14pmUatiisV2N5M82mVzjTiaLOtCzA0x2zlCTVP4R4TDxxhVTAuSl5Zfy71ccJfzg7pc9_RWXSqVyR8l8da_KfkRXxCmV74_Gox-0Wsd9msNuH-eUjAkiBfOD06jxGzsCVkH6s5Q80CQouhJNNpqCGuQ1Iphkqe6a42Q7UHeTB3G8Lme3_vM7waASdhDAN3Wx0eLWcHwCk3t9EF3inxvi0wEnbwXiyCRhBUvYGv0';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Progress Presentation 1</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mCSd14pmUatiisV2N5M82mVzjTiaLOtCzA0x2zlCTVP4R4TDxxhVTAuSl5Zfy71ccJfzg7pc9_RWXSqVyR8l8da_KfkRXxCmV74_Gox-0Wsd9msNuH-eUjAkiBfOD06jxGzsCVkH6s5Q80CQouhJNNpqCGuQ1Iphkqe6a42Q7UHeTB3G8Lme3_vM7waASdhDAN3Wx0eLWcHwCk3t9EF3inxvi0wEnbwXiyCRhBUvYGv0';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Progress Presentation 2</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 80px;">
+          <div class="seven">
+            <h1>Status Document 2</h1>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mx3ifZsKA70AYS4_Y5DGCQe3uJ3S9koJjNTEnQB1cXqUm2oTHeMLaPyKpzNlJrm5CBeedOhhM44bLIDlQOYlCMqTB505curXV1SlqJDk9hAA_UC_P1xa1iHaN64Bu6hQkH65vioOlMdRKbwjrC-ltBqNAB4vt4hzJMpW_yrlQ1JbQ-NbvCEEVd7-27CcpoNMXMWCzOf-TM4SaFvoHyQGMEpAOXs4uS0LxsMPBukK7oBI';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>Status Document -Team</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mak7XhtR_KPxfuZgFMJK7p04eidI-rR-9mTpM3ApqbOSAW83XOdLL2vgrs3llagBiJ-tIWTMwq_P9G6ian7jTC-abB9xkcXR0VFAeLE4QPqLUQqpb5YjxaVgQXQ9QucU6KzSBX9BUtK71hPYwcoZtXUjzW5qRty5srgtzYjhN1LUm6do_hZrI6vZz5Erwrf1DL0d7_tOdONB6icWG_csn-NtP1Dz2LD0n9V3zf_EpJRU';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18004182 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mvVTDcik_BlsiUymbnWFXe3p2iZR329ShpJZ-hjRrhZ_3mASW09Kt4ZAEnaqI389QJVXv4PqK0dm-2pwLwEEXCVdhZ5Eef0-Whsz8EY4NpIW-8HE1UxF-TqiEo5vwn7Czpk5pL8tHDSN9dEi4ES5Mj4LS6L2hACe0kfKSPsi1wuSza9Ewq1F2sTR-ENmlndGifxN8LKsWGJMSfHO5BHinCH42NWqqzjRzmHIEGX1-ByM';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18113228 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mozbaIq-99BcMxn2B-Cxj-TvQArV5TT7Yj6dXZqmoneXSiL_UCJ3PyhnbzsY8g2ql7BGmu5CPtdyuzA4TO7X9NSFzATeHVJagctUwKFfC-1Kap-NgF9qjHgXD9-KpkPx73Ihb559KiDRZf9Dy-XJEhknvCc90aBRHmedkJxLr90JH8Y6oHYZ5I1XdW7oXKehul7Zwpo5OdGU77dNPBQkgMeJnodGTJv20MW9unKZDWr4';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18133400 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6"
+            onclick="location.href='https://public.by.files.1drv.com/y4mukWUvIoC4RpFY4BPgXaFcNZ8vWbQA-xASrZ6LVsK1IIO1THwbjcHty9y8VnMju_wrMgsVth7fKZgjnplo7QvlmaQZh1I9XosxsPscBsumyH5bgjYu4FuASWn0n09IGqtRHQmwBiC9vt8_dMssAHsVipdJ2tdVYOvzjYbegTt8KRGuEkeBdptkpRE11slY7Ix4vxrxkmNGiLTMBUDTLQL6XX_0kS3e-EjK6vTZtoBL1Q';">
+            <div class="single-feature-extended">
+              <div class="card 1">
+                <div class="card_image"> <img src="assets/img/pdf.jpg" /> </div>
+                <div class="card_title title-white">
+                </div>
+              </div>
+              <div class="content">
+                <h3>IT18165258 -Status Document</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ======== document-section end ======== -->
+
+  <!-- ======== footer start ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="widget-wrapper">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <div class="logo mb-30">
+                <a href="index.html">
+                  <img src="assets/img/logo/escala-logo.png" alt="Escala logo" width="200" />
+                </a>
+              </div>
+              <p class="desc mb-30 text-white">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore
+                dinonumy eirmod tempor invidunt.
               </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-8 col-sm-10">
-            <div class="single-feature">
-              <div class="icon">
-                <i class="lni lni-bootstrap"></i>
-              </div>
-              <div class="content">
-                <h3>Load Prediction</h3>
-                <p>
-                  Self learning future requests pattern prediction algorithm
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-8 col-sm-10">
-            <div class="single-feature">
-              <div class="icon">
-                <i class="lni lni-layout"></i>
-              </div>
-              <div class="content">
-                <h3>Automatic Scaling</h3>
-                <p>
-                  Automating the scaling of the PostgreSQL DB based on the prediction model output
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-8 col-sm-10">
-            <div class="single-feature">
-              <div class="icon">
-                <i class="lni lni-coffee-cup"></i>
-              </div>
-              <div class="content">
-                <h3>Realtime data sync</h3>
-                <p>
-                  Realtime data sync between Postgres nodes to ensure the data consistency
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="single-feature">
-            <div class="icon">
-              <i class="lni lni-coffee-cup"></i>
-            </div>
-            <div class="content">
-              <h3>Data Validation & Crash Recovery</h3>
-              <p>
-                Data validation and crash recovery for the PostgreSQL DB instances
-              </p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== feature-section end ======== -->
-
-    <!-- ======== about-section start ======== -->
-    <section id="about" class="about-section pt-150">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-img">
-              <img src="assets/img/about/about-1.png" alt="" class="w-100" />
-              <img
-                src="assets/img/about/about-left-shape.svg"
-                alt=""
-                class="shape shape-1"
-              />
-              <img
-                src="assets/img/about/left-dots.svg"
-                alt=""
-                class="shape shape-2"
-              />
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-content">
-              <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Perfect Solution Thriving Online Business
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  dinonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet.
-                </p>
-              </div>
-              <a
-                href="javascript:void(0)"
-                class="main-btn btn-hover border-btn wow fadeInUp"
-                data-wow-delay=".6s"
-                >Discover More</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== about-section end ======== -->
-
-    <!-- ======== about2-section start ======== -->
-    <section id="about" class="about-section pt-150">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-content">
-              <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Easy to Use with Tons of Awesome Features
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua.
-                </p>
-              </div>
-              <ul>
-                <li>Quick Access</li>
-                <li>Easily to Manage</li>
-                <li>24/7 Support</li>
-              </ul>
-              <a
-                href="javascript:void(0)"
-                class="main-btn btn-hover border-btn wow fadeInUp"
-                data-wow-delay=".6s"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6 order-first order-lg-last">
-            <div class="about-img-2">
-              <img src="assets/img/about/about-2.png" alt="" class="w-100" />
-              <img
-                src="assets/img/about/about-right-shape.svg"
-                alt=""
-                class="shape shape-1"
-              />
-              <img
-                src="assets/img/about/right-dots.svg"
-                alt=""
-                class="shape shape-2"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== about2-section end ======== -->
-
-    <!-- ======== feature-section start ======== -->
-    <section id="why" class="feature-extended-section pt-100">
-      <div class="feature-extended-wrapper">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
-              <div class="section-title text-center mb-60">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Why Choose SaaSpal
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-display"></i>
-                </div>
-                <div class="content">
-                  <h3>SaaS Focused</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-leaf"></i>
-                </div>
-                <div class="content">
-                  <h3>Awesome Design</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-grid-alt"></i>
-                </div>
-                <div class="content">
-                  <h3>Ready to Use</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-javascript"></i>
-                </div>
-                <div class="content">
-                  <h3>Vanilla JS</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-layers"></i>
-                </div>
-                <div class="content">
-                  <h3>Essential Sections</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-rocket"></i>
-                </div>
-                <div class="content">
-                  <h3>Highly Optimized</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== feature-section end ======== -->
-
-    <!-- ======== subscribe-section start ======== -->
-    <section id="contact" class="subscribe-section pt-120">
-      <div class="container">
-        <div class="subscribe-wrapper img-bg">
-          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-7">
-              <div class="section-title mb-15">
-                <h2 class="text-white mb-25">Subscribe Our Newsletter</h2>
-                <p class="text-white pr-5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-5">
-              <form action="#" class="subscribe-form">
-                <input
-                  type="email"
-                  name="subs-email"
-                  id="subs-email"
-                  placeholder="Your Email"
-                />
-                <button type="submit" class="main-btn btn-hover">
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== subscribe-section end ======== -->
-
-    <!-- ======== footer start ======== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="footer-widget">
-                <div class="logo mb-30">
-                  <a href="index.html">
-                    <img
-                      src="assets/img/logo/escala-logo.png"
-                      alt="Escala logo"
-                      width="200"
-                    />
+              <ul class="socials">
+                <li>
+                  <a href="jvascript:void(0)">
+                    <i class="lni lni-facebook-filled"></i>
                   </a>
-                </div>
-                <p class="desc mb-30 text-white">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  dinonumy eirmod tempor invidunt.
-                </p>
-                <ul class="socials">
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-facebook-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                </li>
+                <li>
+                  <a href="jvascript:void(0)">
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="jvascript:void(0)">
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="jvascript:void(0)">
+                    <i class="lni lni-linkedin-original"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
 
-            <div class="col-xl-2 col-lg-2 col-md-6">
-              <div class="footer-widget">
-                <h3>About Us</h3>
-                <ul class="links">
-                  <li><a href="javascript:void(0)">Home</a></li>
-                  <li><a href="javascript:void(0)">Feature</a></li>
-                  <li><a href="javascript:void(0)">About</a></li>
-                  <li><a href="javascript:void(0)">Testimonials</a></li>
-                </ul>
-              </div>
+          <div class="col-xl-2 col-lg-2 col-md-6">
+            <div class="footer-widget">
+              <h3>About Us</h3>
+              <ul class="links">
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="javascript:void(0)">Feature</a></li>
+                <li><a href="javascript:void(0)">About</a></li>
+                <li><a href="javascript:void(0)">Testimonials</a></li>
+              </ul>
             </div>
+          </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget">
-                <h3>Features</h3>
-                <ul class="links">
-                  <li><a href="javascript:void(0)">How it works</a></li>
-                  <li><a href="javascript:void(0)">Privacy policy</a></li>
-                  <li><a href="javascript:void(0)">Terms of service</a></li>
-                  <li><a href="javascript:void(0)">Refund policy</a></li>
-                </ul>
-              </div>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h3>Features</h3>
+              <ul class="links">
+                <li><a href="javascript:void(0)">How it works</a></li>
+                <li><a href="javascript:void(0)">Privacy policy</a></li>
+                <li><a href="javascript:void(0)">Terms of service</a></li>
+                <li><a href="javascript:void(0)">Refund policy</a></li>
+              </ul>
             </div>
+          </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget">
-                <h3>Other Products</h3>
-                <ul class="links">
-                  <li><a href="jvascript:void(0)">Accounting Software</a></li>
-                  <li><a href="jvascript:void(0)">Billing Software</a></li>
-                  <li><a href="jvascript:void(0)">Booking System</a></li>
-                  <li><a href="jvascript:void(0)">Tracking System</a></li>
-                </ul>
-              </div>
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h3>Other Products</h3>
+              <ul class="links">
+                <li><a href="jvascript:void(0)">Accounting Software</a></li>
+                <li><a href="jvascript:void(0)">Billing Software</a></li>
+                <li><a href="jvascript:void(0)">Booking System</a></li>
+                <li><a href="jvascript:void(0)">Tracking System</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- ======== footer end ======== -->
+    </div>
+  </footer>
+  <!-- ======== footer end ======== -->
 
-    <!-- ======== scroll-top ======== -->
-    <a href="#" class="scroll-top btn-hover">
-      <i class="lni lni-chevron-up"></i>
-    </a>
+  <!-- ======== scroll-top ======== -->
+  <a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+  </a>
 
-    <!-- ======== JS here ======== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- ======== JS here ======== -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
